@@ -1,0 +1,10 @@
+XCADDY_Modules: "--with github.com/darkweak/souin/plugins/caddy --with github.com/dunglas/caddy-cbrotli --with github.com/dunglas/mercure/caddy --with github.com/dunglas/vulcain/caddy"
+
+PHP_EXTENSIONS:
+  - gd
+
+PHP_EXTENSION_LIB:
+  - libjpeg
+  - libwebp
+
+EMBED: ""
