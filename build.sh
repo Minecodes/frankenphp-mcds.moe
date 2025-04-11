@@ -6,12 +6,6 @@ if ! [ -x "$(command -v docker)" ]; then
     exit 1
 fi
 
-# Check if using docker without sudo
-if [ "$(id -u)" -ne 0 ]; then
-    echo 'Error: Please run as root.' >&2
-    exit 1
-fi
-
 # Check if .env file exists
 if [ ! -f .env ]; then
     echo 'Error: .env file not found.' >&2
