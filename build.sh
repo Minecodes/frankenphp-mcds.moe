@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+
 # Check if docker is installed
 if ! [ -x "$(command -v docker)" ]; then
     echo 'Error: docker is not installed.' >&2
