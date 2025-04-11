@@ -1,4 +1,4 @@
-FROM --platform=linux/amd64 dunglas/frankenphp:static-builder
+FROM --platform=linux/aarch64 dunglas/frankenphp:static-builder
 
 # Define build arguments
 ARG PHP_EXTENSIONS
