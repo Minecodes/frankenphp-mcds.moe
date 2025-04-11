@@ -30,7 +30,7 @@ set +a
 docker buildx bake --set static-builder.args.PHP_EXTENSIONS="${PHP_EXTENSIONS}" --set static-builder.args.PHP_EXTENSION_LIBS="${PHP_EXTENSION_LIBS}" --set static-builder.args.XCADDY_ARGS="${XCADDY_ARGS}" --set static-builder.args.EMBED="${EMBED}" static-builder
 
 if [ $? -eq 0 ]; then
-    docker cp $(docker create --name static-app-tmp static-app):/go/src/app/dist/frankenphp-linux-x86_64 dist/frankenphp
+    docker cp $(docker create --name static-app-tmp static-app):/go/src/app/dist/frankenphp-linux-arm64 dist/frankenphp
     docker rm static-app-tmp
     docker image rm static-app
     cd dist
