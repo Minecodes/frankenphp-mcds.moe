@@ -1,7 +1,16 @@
-XCADDY_Modules: "--with github.com/darkweak/souin/plugins/caddy --with github.com/dunglas/caddy-cbrotli --with github.com/dunglas/mercure/caddy --with github.com/dunglas/vulcain/caddy"
+XCADDY_Modules: "--with github.com/darkweak/souin/plugins/caddy --with github.com/dunglas/caddy-cbrotli --with github.com/dunglas/mercure/caddy --with github.com/dunglas/vulcain/caddy --with github.com/caddy-dns/cloudflare --with github.com/mholt/caddy-ratelimit --with github.com/greenpau/caddy-git --with github.com/abiosoft/caddy-exec --with github.com/enum-gg/caddy-discod --with github.com/mholt/caddy-l4 --with magnax.ca/caddy/gopkg"
 
 PHP_EXTENSIONS:
   - gd
+  - pdo
+  - mysqli
+  - pdo_mysql
+  - pdo_sqlite
+  - openssl
+  - dom
+  - filter
+  - hash
+  - pcre
 
 PHP_EXTENSION_LIB:
   - libjpeg
