@@ -1,4 +1,1 @@
-Deployment:
-1. rsync dist/caddy thies@minecodes.de:/usr/bin/
-2. ssh thies@minecodes.de lopriv caddy
-3. ssh thies@minecodes.de "cd Website && caddy start"
+ + Added new extensions
