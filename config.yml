@@ -24,6 +24,7 @@ PHP_EXTENSIONS:
 PHP_EXTENSION_LIB:
   - libjpeg
   - libwebp
+  - dom
   - curl
   - xml
   - xmlwriter
