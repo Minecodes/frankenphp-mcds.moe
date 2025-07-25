@@ -11,6 +11,15 @@ PHP_EXTENSIONS:
   - filter
   - hash
   - pcre
+  - ctype
+  - mbstring
+  - pcntl
+  - posix
+  - session
+  - sodium
+  - xml
+  - xmlwriter
+  - phar
 
 PHP_EXTENSION_LIB:
   - libjpeg
