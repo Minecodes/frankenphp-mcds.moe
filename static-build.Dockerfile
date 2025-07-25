@@ -13,6 +13,7 @@ COPY . .
 # Build the static binary
 WORKDIR /go/src/app/
 
+RUN mkdir -p /usr/share/php-composer/
 RUN echo "extension=iconv.so" >> /usr/share/php-composer/php.ini
 
 RUN EMBED=${EMBED} \
