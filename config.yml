@@ -15,5 +15,16 @@ PHP_EXTENSIONS:
 PHP_EXTENSION_LIB:
   - libjpeg
   - libwebp
+  - curl
+  - xml
+  - xmlwriter
+  - phar
+  - tokenizer
+  - sodium
+  - session
+  - posix
+  - pcntl
+  - mbstring
+  - ctype
 
 EMBED: ""
