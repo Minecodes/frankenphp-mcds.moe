@@ -7,7 +7,7 @@ ARG XCADDY_ARGS
 ARG EMBED
 
 RUN apk update && apk upgrade
-RUN apk add -y curl
+RUN apk add curl
 
 # Copy your app
 WORKDIR /go/src/app/dist/app
